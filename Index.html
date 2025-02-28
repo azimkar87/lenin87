@@ -1,1 +1,52 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица платежей</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>Таблица платежей</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Дата платежа</th>
+                <th>ФИО</th>
+                <th>Сумма</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2025-02-28</td>
+                <td>Иванов Иван Иванович</td>
+                <td>1000 руб.</td>
+            </tr>
+            <tr>
+                <td>2025-03-01</td>
+                <td>Петров Петр Петрович</td>
+                <td>2000 руб.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
